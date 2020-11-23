@@ -1,0 +1,95 @@
+body, h1, h2, h3, h4, h5, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media(min-width: 1360px) {
+    .main{
+        width: 1360px;
+    }
+}
+
+.main {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top : 1%;
+}
+ 
+/* ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+} */
+
+.infinite-scroll-component{
+    overflow-x: hidden !important;
+}
+
+.row{
+    background-color: black;
+}
+
+.title{
+    padding-top: 5px;
+    font-weight: 200;
+    color : white;
+}
+
+.header{
+    background-image: url("./Assets/Images/nav_bar.png");
+    padding-bottom: 5px;
+    font-weight: 400;
+    padding-left: 3% !important;
+    padding-top: 1%;
+    color : white;
+    padding-bottom: 0% !important;
+}
+
+.titleImg{
+    width:6% !important;
+    margin-right: 1%;
+    padding-bottom: 5px;
+}
+
+.searchImg{
+    float: right;
+    margin-right: 5%;
+    
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  /* Create three equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 800px) {
+    .column {
+        float: left;
+        width: 20%;
+        padding: 10px;
+      }
+
+      .titleImg{
+        width:3% !important;
+        margin-left: -3%;
+    }
+}
+
+.row {
+    padding-top: 0.3% !important;
+}
